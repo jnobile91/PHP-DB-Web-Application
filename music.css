@@ -1,0 +1,62 @@
+/* 
+	I certify that this submission is my own original work.
+	Joe Nobile
+	R01730447
+	Music Database
+	music.css
+	This file controls the formatting of colors/backgrounds for style
+	throughoug the entire website.
+	All colors were picked using the following link:
+	https://www.google.com/search?q=css+color+picker&rlz=1C1SQJL_enUS809US809&oq=css+color+picker&aqs=chrome..69i57j0l9.2253j0j7&sourceid=chrome&ie=UTF-8
+*/
+
+/* Changes color of body/main background */
+body{
+    margin:0;
+    background-color: #005d91;
+	color: #cfcfcf;
+}
+
+/* Changes color of text/background of header and paragraph content */
+h1, h2, h3, p{
+    color: #5b6bd4;
+    background-color: #cfcfcf;
+}
+
+/* Changes color of table background/text and adds border  */
+table {
+    table-layout: auto;
+	border: 1px solid black;
+	color: #001a78;
+    background-color: #ededed;
+    text-align: center;
+}
+
+/* Changes color of text and background of the table header */
+th {
+      background-color: #cfcfcf;
+      color: #5b6bd4;
+}
+
+/* Adjusts navigation bar background color */
+.topnav {
+    background-color: #cfcfcf;
+    overflow: hidden;
+}
+
+/* Adds spacing between links in the navigation bar, formats text, etc. */
+.topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+/* Changes color of hover-over links */
+.topnav a:hover {
+    background-color: #ededed;
+    color: #001eff;
+}
